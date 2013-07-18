@@ -1,0 +1,271 @@
+	header{
+		display: block;
+		margin: 0.25%;
+		padding: 0.25%;
+		width: auto;
+		min-height: 100px;
+		background-image: url('IMAGES/7wonder.gif');
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		min-width: 90%;
+		border: 1px solid white;
+	}
+	body{
+		background: black;
+		overflow: 0;
+		height: 100%;
+		margin: 0.25%;
+	}
+	#main{
+		min-height: 800px;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row;
+				flex-flow: row;
+	}
+	#main > article {
+		margin: 0.25%;
+		padding: 0.5%;
+		border-radius: 5px;
+		border: 1px solid white;
+		background: transparent;
+		-webkit-flex: 3 1 60%;
+				flex: 3 1 60%;
+		-webkit-order: 2;
+				order: 2;
+	}
+	.ww1{
+		background-image: url('IMAGES/tajmahal.jpg');
+		width: 70%;
+		height: 48%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		border-radius: 10px;
+		margin-left: 15%;
+		margin-right: 15%;
+		border-radius: 10px;
+		border: 3px solid black;
+	}
+	.ww1:hover{
+		cursor: pointer;
+		background-image: url('IMAGES/taj.gif');
+	}
+	.ww2{
+		background-image: url('IMAGES/chichenitza.jpg');
+		width: 70%;
+		height: 48%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		border-radius: 10px;
+		margin-left: 15%;
+		margin-right: 15%;
+		border-radius: 10px;
+		border: 3px solid black;
+	}
+	.ww2:hover{
+		cursor: pointer;
+		background-image: url('IMAGES/chichen.gif');
+	}
+	.ww3{
+		background-image: url('IMAGES/greatwallofchina.jpg');
+		width: 70%;
+		height: 48%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		border-radius: 10px;
+		margin-left: 15%;
+		margin-right: 15%;
+		border: 3px solid black;
+	}
+	.ww3:hover{
+		cursor: pointer;
+		background-image: url('IMAGES/great.gif');
+	}
+	.ww4{
+		background-image: url('IMAGES/machupicchu.jpg');
+		width: 70%;
+		height: 48%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		border-radius: 10px;
+		margin-left: 15%;
+		margin-right: 15%;
+		border: 3px solid black;
+	}
+	.ww4:hover{
+		cursor: pointer;
+		background-image: url('IMAGES/machu.gif');
+	}
+	.ww5{
+		background-image: url('IMAGES/petra.jpg');
+		width: 70%;
+		height: 48%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		border-radius: 10px;
+		margin-left: 15%;
+		margin-right: 15%;
+		border: 3px solid black;
+	}
+	.ww5:hover{
+		cursor: pointer;
+		background-image: url('IMAGES/petra.gif');
+	}
+	.ww6{
+		background-image: url('IMAGES/thecolosseum.jpg');
+		width: 70%;
+		height: 48%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		border-radius: 10px;
+		margin-left: 15%;
+		margin-right: 15%;
+		border: 3px solid black;
+	}
+	.ww6:hover{
+		cursor: pointer;
+		background-image: url('IMAGES/colosseum.gif');
+	}
+	.ww7{
+		background-image: url('IMAGES/christredeemer.jpg');
+		width: 70%;
+		height: 48%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		border-radius: 10px;
+		margin-left: 15%;
+		margin-right: 15%;
+		border: 3px solid black;
+	}
+	.ww7:hover{
+		cursor: pointer;
+		background-image: url('IMAGES/christ.gif');
+	}
+	#main > nav {
+		margin: 0.25%;
+		padding: 0.5%;
+		border-radius: 5px;
+		border: 1px solid white;
+		background: transparent;
+		-webkit-flex: 1 6 20%;
+				flex: 1 6 20%;
+		-webkit-order: 1;
+				order: 1;
+	}
+	#main > aside {
+		margin: 0.25%;
+		padding: 0.5%;
+		border-radius: 5px;
+		border: 1px solid white;
+		background: transparent;
+		-webkit-flex: 1 6 20%;
+				flex: 1 6 20%;
+		-webkit-order: 3;
+				order: 3;
+	}
+
+	.app{
+		color: red;
+		text-decoration: none;
+		border: 1px solid black;
+		padding-bottom: 0.25%;
+		margin-bottom: 5%;
+		margin-top: 5%;
+	}
+	#app2{
+		color: red;
+		text-decoration: none;
+		border: 1px dotted black;
+	}
+	.a{
+		color: white;
+		text-align: center;
+		font-family: times new roman;
+		font-size: 300%;
+		font-style: italic;
+	}
+	.b{
+		text-align: left;
+		font-family: ;
+		font-size: 105%;
+		font-weight: bold;
+		margin-left: 5%;
+		margin-right: 5%;
+		color: white;
+	}
+	#c{
+		text-align: center;
+		font-family: times new roman;
+		font-size: 130%;
+		font-style: bold;
+		padding-bottom: 0%;
+		margin-bottom: 5%;
+		color: white;
+		border: 1px solid white;
+	}
+	#d{
+		color: white;
+		text-align: center;
+		font-family: times new roman;
+		font-size: 130%;
+		font-style: bold;
+		margin: 0;
+		border: 1px solid white;
+	}
+	.deco2{
+		list-style-type:square;
+		line-height: 200%;
+		text-decoration: none;
+		font-weight: normal;
+		text-align: justify;
+		margin-left: 0px;
+		color: white;
+		font-size: 105%;
+	}
+	#deco2:hover{
+		color: yellow;
+		padding: 5px 5px 5px 5px;
+	}
+	.deco{
+		color: white;
+		text-decoration: none;
+		line-height: 200%;
+	}
+	#abcd{
+		list-style: circle;
+		text-decoration: none;
+		font-weight: normal;
+		text-align: justify;
+		margin-right: 5%;
+ 	}
+ 	#foot1{
+ 		font-family: arial;
+		color: white;
+		font-size: 14px;
+		text-align: center;
+		text-decoration: none;
+	}
+	#foot2{
+		font-family: arial;
+		display: block;
+		margin: 0.25%;
+		padding: 0%;
+		min-height: 15px;
+		border: 1px solid white;
+		background: transparent;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+	}
+	@media all and (max-width: 640px){
+		#main, #page{
+			-webkit-flex-flow: column;
+					flex-flow: column;
+		}
+		#main > nav, #main > article, #main >aside{
+			-webkit-flex:0;
+			-webkit-order: 0;
+					order: 0;
+		}
+	}
+	
